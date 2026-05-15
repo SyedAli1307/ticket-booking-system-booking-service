@@ -8,6 +8,8 @@ import lombok.*;
 @Entity
 @Table(name = "bookings")
 @Data
+@AllArgsConstructor
+@Builder
 @NoArgsConstructor
 public class Booking {
 
